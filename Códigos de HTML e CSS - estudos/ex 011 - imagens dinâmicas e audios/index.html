@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas e áudio</title>
+    <style type="text/css">
+           body {
+               background-color: rgb(48, 158, 153);
+           }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinâmicas e áudios</h1>
+
+    <h2>Imagens dinâmicas</h2>
+    <p>Vamos inserir a seguir algumas imagens que pode ser redimensionadas por qualquer tamanho de tela, será proporcional.</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h2>Áudios</h2>
+    <p>Vamos inserir áudio com o elemento &lt; audio &gt; e adcionando autoplay e controls</p>
+    <p><small style="color: black;">maneira simples</small></p>
+
+    <audio src="midias/MC Kevin e Gaab - Terapia 2 (GR6 Explode) DJ Murillo e LTnoBeat_50k.mp3" autoplay controls>MC Kevin e Gaab - Terapia 2 (GR5 Explode) DJ Murillo e LTnoBeat_50k.mp3</audio>
+
+    <p>tipo dois para adcionar uma mídia músical usando o:
+         <code><pre>
+         &lt;audio&gt;
+             &lt;source preload="metadata" autoplay controls&gt;
+         &lt;/audio&gt;
+    </code></pre> 
+</p>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/MC Kevin e Gaab - Terapia 2 (GR6 Explode) DJ Murillo e LTnoBeat_50k.mp3" type="audio/mpeg">
+    </audio>
+ 
+    <p style="color: black;">Praticando novamente de forma <q>difícil</q></p>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/MC Kevin e Gaab - Terapia 2 (GR6 Explode) DJ Murillo e LTnoBeat_50k.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Prática de alguns elementos</h2>
+    <p>Tem muitas <ins>coisas que a gente passa más nem sempre ou, talvez quase sempre não aceitamos</ins>. Más <mark style="background-color: rgb(126, 134, 141);">acredite</mark>, é muito <br> necessário para aprender a corrigir certos atos, certas atitudes, erros e etc... Más sabemos que muitas dessas <br> coisas abala demais o nosso emocional e muitas das vezes de forma física.</p>
+
+    <p>Como diz o <strong>Gabriel Pensador</strong> <blockquote>- <q>A vida é um trem e estamos aqui de passagem, aproveite a viagem e os passageiros.</q></blockquote></p>
+
+    <p>Tem <em>certas coisas que nos deixam felizes.</em> de forma espontânea, más sem dúvidas é muito verdadeiro esses sentimentos e pensamentos.</p>
+
+    <h3><del>Sentimentos</del> são reias? </h3>
+    <p><strong>Em algum momento da sua vida já passou pela sua cabeça a pergunta se sentimrntos são verdadeiros?</strong> Se sim, <br> houve uma dúvida, se <INS>sim ou se não</INS>. E isso se tornou de forma indireta, um pensamento consatente. Até ai <br> tudo bem, más e aí, são reais afinal de contas? E minha reposta é que sim, simplemente porque se despertamos <br> esse tipo de pensamento significa que nós se preocupamos com os nossos sentimentos. <strong>Isso torna-os reais.</strong></p>
+
+    <h3 style="background-color: rgb(168, 72, 160); color: white; margin: 2%; margin-right: 74%; margin-bottom: -4%;">Mudando de assunto...</h3>
+
+    <p style="margin: 5%; color: white;">Mudando completamente de assunto, faço uma imansa questão de falar da <strong>minha mãe</strong>, quer dizer, falar um pouco <br> porquê essa mulher é incrível. Uma mulher mais que incrível, uma guerreira, batalhadora. Que sempre lutou por <br> seus sonhos e objetivos, da forma mais honesta desse mundo. <br> O que eu sinto por ela não dá para mensurar em palavras, em formas ou expressões. É a minha vida, o meu abrigo, <br> o meu amor, o meu motivo de sempre fazer o meu máximo para tirar o sorriso e orgulho dela. Eu amo muito <strong>minha <br> mãe</strong> irei sempre batalhar assim como ela, más com um único objetivo para a minha vida, dar o maior orgulho a ela.</p>
+</body>
+</html>

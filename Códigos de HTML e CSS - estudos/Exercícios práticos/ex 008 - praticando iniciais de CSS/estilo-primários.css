@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(111, 155, 136);
+    color: whitesmoke;
+    font-family: arial;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: ARIAL;
+    letter-spacing: 1ch;
+    border-bottom: 1px solid black;
+}
+h2.orientacao-img {
+    line-height: 1%;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+
+}
+p.descricao-1 {
+    color: rgb(7, 7, 7);
+    border: rgb(255, 255, 255);
+    border-style: double;
+    margin-right: 48%;
+    padding-left: 2%;
+    font-size: 95%;
+}
+p.verdades-1 {
+    color: rgb(7, 7, 7);
+    border: rgb(255, 255, 255);
+    border-style: double;
+    margin-right: 48%;
+    padding-left: 2%;
+    font-size: 87%;
+    margin-bottom: 5%;
+}
+p.teste {
+    margin-top: -3%;
+    text-align: right;
+    font-size: 80%;
+}
+p.ana-cristina {
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+    color: rgb(233, 29, 63);
+    font-family: sans-serif;
+    letter-spacing: 1ch;
+    border-bottom: 1px double black;
+ 
+}

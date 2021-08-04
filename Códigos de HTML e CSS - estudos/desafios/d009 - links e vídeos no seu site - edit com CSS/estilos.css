@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(38, 41, 44);
+}
+h1.estilo-h1, p {
+    color: white;
+    text-align: center;
+    margin-bottom: -1%;
+}
+h3.estilo-h3 {
+    color: rgb(8, 209, 209);
+    text-align: center;
+}
+a.posicao-a-1 {
+    padding-left: 30%;
+    margin: 1%;
+    margin-bottom: 1%;
+
+}
+h1 {
+    font-family: Arial;
+    letter-spacing: 1ch;
+    font-size: 200%;
+    border: 2px  rgb(8, 209, 209);
+    background-color: rgb(56, 43, 43);
+    border-style: outset;
+
+    margin-top: 3%; 
+}
+h3 {
+    font-family:  Arial;
+   
+}
+
+/*CENTRALIZAR JAVASCRIPT-HTML-PYTHON-HARDWARE. */
+iframe.centralizar-JS-HTML-PYTHON-HARDWARE {
+    padding-left: 30%;
+}
+a.centralizar-a1-JSHTML-PYTHON-HARDWARE {
+    padding-left: 43%;
+}
+a.centralizar-a2-JSHTML-PYTHON-HARDWARE {
+    padding-left: 49%;
+}

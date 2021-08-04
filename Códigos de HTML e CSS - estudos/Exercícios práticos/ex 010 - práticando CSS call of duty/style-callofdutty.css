@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(16, 15, 15);
+    color: white;
+    font-family: sans-serif;
+    
+}
+h1,h2 {
+    font-family: arial;
+    padding-left: 3%;
+    color: rgb(12, 226, 223);
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+    font-size: 90%;
+    padding-left: 2%;
+    
+    
+}
+p.posicao-img {
+    text-align: right;
+    margin-top: -4%;
+    background-color: rgb(138, 21, 21);
+    border: 3px solid rgb(0, 252, 227);
+    padding: 2px;
+}
+p.posicao-icones {
+    letter-spacing: 3ch;
+    padding-left: 1%;
+}
+img.capa {
+    padding-left: 7%;
+}
+h2.borda-fim-pag {
+    text-decoration: underline rgb(112, 32, 32);
+    text-transform: uppercase;
+
+    font-family: arial ;
+    text-align: center;
+}
