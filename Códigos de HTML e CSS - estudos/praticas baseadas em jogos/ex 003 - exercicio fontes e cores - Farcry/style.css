@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+    background-attachment: fixed;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+body {
+    background-image: linear-gradient(to left, #88F9D4, #0B877D);
+    font-size: 16px;
+}
+/* ESTILO DO CONTEÚDO */
+main {
+    background-image: linear-gradient(to left, #439278, #0b7068);
+    width: 1080px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 30px;
+}
+h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.5em; 
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/* CLASSES */
+h2.center-salve {
+    text-align: center;
+    text-align: center;
+    color: #fafafa;
+    text-shadow: 10px 10px 10px black;
+}
+p.paragrafo {
+    background-image: linear-gradient(to left,#0B877D, #147052, #031727);
+    width: 1000px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+P.descricao-salve {
+    background-image: linear-gradient(to left,#0B877D, #126449, #031727);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 35px;
+}
+p.decricao-modos {
+    background-image: linear-gradient(to left,#0B877D, #106b4d, #031727);
+    padding: 10px;
+    width: 550px;
+    border-radius: 10px;
+    margin-top: -250px;
+    margin-bottom: 200px;
+}
+h2.jogo{
+    color: blanchedalmond;
+    text-shadow: 10px 10px 10px black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 200px;
+}
+h2.caça {
+    color: blanchedalmond;
+    text-shadow: 10px 10px 10px black;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-left: 200px;
+    padding-top: -50px;
+}
+a {
+    color: rgb(4, 0, 218);
+}
+p.img-farcry6 {
+    text-align: center;
+}
+p.imagem-caça {
+    text-align: right;
+    padding-top: 10px;
+}
+p.parte-jogo {
+    margin-bottom: -40px;
+}
+p.caça-conteúdo {
+    background-image: linear-gradient(to left,#0B877D, #106b4d, #031727);
+    padding: 10px;
+    width: 550px; 
+    border-radius: 10px;
+    padding-bottom: -20px;
+}
+ul {
+    padding-top: 10px;
+    color: white;
+    margin-top: -17px;
+    padding: 20px;
+     
+}
+p.img-caça {
+    text-align: right;
+    padding-left: 50px;
+    margin-top: -200px;
+    padding-top: -px;
+}
+p.video {
+    text-align: center;
+}
+p.futuro {
+     font-size: small;
+     background-image: linear-gradient(to left,#0B877D, #106b4d, #031727);
+    padding: 10px;
+    margin: auto;
+    width: 1000px; 
+    border-radius: 10px;
+    padding-bottom: -20px;
+}
+p.separação {
+    background-image: linear-gradient(to left,#df1812, #043a3c, #df1812);
+    padding: 10px;
+    width: 1000px; 
+    border-radius: 10px;
+    margin: auto;
+    height: 2px;
+}
+p.img-ubisoft {
+    padding-top: 40px;
+    background-image: linear-gradient(to left,#0ed0bf, #106b4d, #0fa78b);
+    padding: 10px;
+    width: 200px; 
+    border-radius: 36px;
+    padding-bottom: -20px;
+    height: 70px;
+}
+p.yasmin {
+    color: blanchedalmond;
+    text-shadow: 10px 10px 10px black;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
