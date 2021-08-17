@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body {
+    text-align: justify;
+    color: white;
+    background-color: rgb(90, 118, 118);
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+/* NÚMEROS E SEUS ESTADOS // PSEUDO-CLASSE*/
+div.primeira {
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+}
+div.primeira:hover {
+    background-color: rgba(71, 72, 63, 0.556);
+}
+.paragrafo {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+}
+/* SEGUNDA  DIV, PSEUDO-ELEMENTOS */
+div.segunda {
+    background-color: yellow;
+    color: black;
+    border: 4px double black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+}
+div.segunda:hover > p {
+    display: block;
+}
+.paragrafo2{
+    display: none;
+}
+/* ESTILO NO ELEMENTO <a> (Link) */
+a {
+    color: yellow;
+    text-decoration: none;
+}
+a:active {
+    color: indigo;
+}
+a::after {
+    content: ' [Link]';
+    color: grey;
+}
+a::before {
+    content: '→ ';
+    
+}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to left, #02F584, #01753F);
+}
+main {
+    background-color: rgba(255, 255, 255, 0.844);
+    text-align: justify;
+    border-radius: 30px;
+    width: 1150px;
+    padding: 15px;
+    padding-top: 10px;
+    margin: auto;
+    
+}
+a{
+    color: white;
+}
+h1 {
+    font-style: italic;
+    color: #252726;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(116, 115, 115);
+    font-size: 3em;
+}
+h2 {
+    font-style: italic;
+    color: rgb(44, 42, 42);
+    padding-left: 15px;
+}
+h2.vida{
+    margin-top: 60px;
+}
+/* descricao */
+.descricao {
+    text-align: center;
+    font-size: xx-small;
+}
+p.segredo {
+    color: white;
+    border-color: rgb(233, 232, 232);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 70px;
+    background-image: linear-gradient(to left, #02d070, #01753F);
+}
+p.ilusoes { 
+    color: white;
+    text-indent: 30px;
+    background-image: linear-gradient(to left, #02d070, #01753F);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    width: 600px;
+    margin-top: -290px;
+    margin-bottom: 150px;
+}
+p.coisas-da-vida {
+    color: white;
+    border-color: rgb(233, 232, 232);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    background-image: linear-gradient(to left, #02d070, #01753F);
+}
+p.img-atitude{
+    text-align: right;
+}
+p.imagem-paz{
+    text-align: right;
+}
+p.coisas {
+    color: white;
+    text-indent: 30px;
+    background-image: linear-gradient(to left, #02d070, #01753F);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    width: 600px;
+    margin-top: -320px;
+    margin-bottom: 150px;
+}
+
+
+.position-icones {
+    background-image: linear-gradient(to left, #02d070, #01753F);
+    display: flexnox;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding:5px;
+    padding-left: 4px;
+    margin-right: 1100px;
+    margin-bottom: -150px;
+    
+}

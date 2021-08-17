@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    color: #00C254;
+    text-shadow: 5px 5px 5px rgb(97, 95, 95);
+    font-size: 3.4em;
+    padding-top: 20px;
+    height: 20px;
+}
+h2 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+a.efeito {
+    color: white;
+    text-decoration: none;
+}
+
+p#principal {
+    color: white;
+    border-color: white;
+    border-width: 0px;
+    border-style: double;
+    border-top-color: #00c254b3;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 1000px;
+    padding: 7px;
+    margin: auto;
+    margin-top: -10px;
+    background-color: rgb(41, 39, 39);
+    
+}
+p.centralizar {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    border-color: white;
+    border-width: 0px;
+    border-style: double;
+    border-top-color: #00c254b3;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 700px;
+    margin-left: 160px;
+    background-color: rgb(41, 39, 39);
+}
+p.guia-pag02 {
+    padding-top: 90px;
+    text-align: center;
+    border-color: blanchedalmond;
+    border-radius: 30px;
+    width: 415px;     
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    background-color: #00c254b3;
+}
+.descricao {
+    text-align: center;
+    font-size: xx-small;
+}
+.ícones-home {
+    display: flexbox;
+    background-image: linear-gradient(to left, #00c254b3, rgba(0, 0, 0, 0.563));
+    border-radius: 20px;
+    padding:5px;
+    margin: auto;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-right: 1260px;
+    margin-bottom: -275px;
+}
+.orienta {
+    margin-right: 10px;
+}
+.orienta-insta {
+    margin-right: 10px;
+}
+.orienta a:hover {
+    background-color: rgba(8, 31, 1, 0.131);
+}
+.link-icones {
+    color: white;
+    text-decoration: none;
+}
