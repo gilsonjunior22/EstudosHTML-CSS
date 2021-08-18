@@ -1,0 +1,6 @@
+- Praticando groupings tegs mais uma vez para 
+reforçar os conhecimento e aprendizado. 
+
+- Praticando também os pseudo-class e pseudo-elemento.
+
+- Coisas fundamentais para ter um pouco mais de CSS.
