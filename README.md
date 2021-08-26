@@ -12,4 +12,6 @@ Nesses arquivos tem:
 
 [] CSS
 
+[] JavaScript
+
 Tudo a respeito de HTML e CSS estará nesse repositório. 🚀
